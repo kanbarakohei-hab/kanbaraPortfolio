@@ -1,0 +1,10 @@
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\bin\Debug\KanbaraProject.exe.config
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\bin\Debug\KanbaraProject.exe
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\bin\Debug\KanbaraProject.pdb
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.csprojAssemblyReference.cache
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.Form1.resources
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.Properties.Resources.resources
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.csproj.GenerateResource.cache
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.csproj.CoreCompileInputs.cache
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.exe
+C:\Users\神原洸平\Documents\git_csharp4\KanbaraProject\obj\Debug\KanbaraProject.pdb
