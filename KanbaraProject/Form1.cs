@@ -20,7 +20,7 @@ namespace KanbaraProject
         public static int countZ = 0;
         public static int 判定A;
         public static bool 判定B = false;
-
+        KomaColor color = new KomaColor();
         public Form1()
         {
             //駒を生成するメソッド(修正必要)
@@ -72,8 +72,6 @@ namespace KanbaraProject
                         {
                             str.BackColor = System.Drawing.Color.FromArgb(110, 96, 10);// 濃い色
                         }
-                        /*
-                        この処理を行う必要がなくなった 
                         else if (str.Name.IndexOf("空白") == 0)
                         {
                             str.BackColor = System.Drawing.Color.FromArgb(76, 173, 116);// チョコレート
@@ -82,7 +80,6 @@ namespace KanbaraProject
                         {
                             str.BackColor = System.Drawing.Color.FromArgb(0, 70, 56);// 深桃色
                         }
-                        */
                     }
                     #endregion
 
@@ -148,12 +145,12 @@ namespace KanbaraProject
                         {
                             if (str.Name.IndexOf("空白") == 0)
                             {
-                                str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                                str.BackColor = color.paleGreen;
                             }
                             //それ以外の場合
                             else
                             {
-                                str.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
+                                str.BackColor = color.darkGreen;
                             }
                         }
                         判定A = 0;
@@ -166,19 +163,19 @@ namespace KanbaraProject
                         //空白の場合
                         if (str.Name.IndexOf("空白") == 0)
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                            str.BackColor = color.paleGreen;
                         }
                         //それ以外の場合
                         else
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
+                            str.BackColor = color.darkGreen;
                         }
                     }
                     foreach (Label str in Koma.駒)
                     {
                         if ((koma2.駒情報A.Location) == (str.Location))
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                            str.BackColor = color.paleGreen;
                             str.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                             str.Margin = new System.Windows.Forms.Padding(1);
                             str.Name = "空白" + ((50 + countZ).ToString());
@@ -304,12 +301,12 @@ namespace KanbaraProject
                         {
                             if (str.Name.IndexOf("空白") == 0)
                             {
-                                str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                                str.BackColor = color.paleGreen;
                             }
                             //それ以外の場合
                             else
                             {
-                                str.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
+                                str.BackColor = color.darkGreen;
                             }
                         }
                         判定A = 2;
@@ -320,18 +317,18 @@ namespace KanbaraProject
                         //ラベルの色を初期化する
                         if (str.Name.IndexOf("空白") == 0)
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                            str.BackColor = color.paleGreen;
                         }
                         else
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(0, 150, 136);
+                            str.BackColor = color.darkGreen;
                         }
                     }
                     foreach (Label str in Koma.駒)
                     {
                         if ((koma2.駒情報A.Location) == (str.Location))
                         {
-                            str.BackColor = System.Drawing.Color.FromArgb(136, 226, 198);
+                            str.BackColor = color.paleGreen;
                             str.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                             str.Margin = new System.Windows.Forms.Padding(1);
                             str.Name = "空白" + ((50 + countZ).ToString());
